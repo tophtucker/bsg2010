@@ -1,0 +1,178 @@
+@CHARSET "ISO-8859-1";
+
+html, body 
+{ 
+	height:100%;
+}
+
+body 
+{
+	background: #7B8D7E url(../images/bg-wide.gif) repeat;
+	color: #404040;
+	font-family: Verdana, Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 25px;
+}
+
+a:link 
+{
+	color: #3333CC;
+	text-decoration: none; 
+}
+
+a:visited 
+{
+	color:#3333CC;
+	text-decoration:none;
+}
+
+a:hover 
+{ 
+	color: #990000;
+	text-decoration: underline; 
+}
+
+/* basic html selectors */
+h1, h2, h3
+{
+	font-weight: bold; 
+	color: #A03B27; 
+}
+
+h1 
+{
+	font-size: 22px;
+	font-weight: bold; 
+	margin: 10px 0 20px 54px;
+}
+
+h2
+{
+	font-size: 19px;
+	font-weight: normal;
+	margin:0 0 15px 0; 
+}
+
+h3
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #404040;
+	margin-top: 35px;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 25px;
+	color: #A03B27;
+}
+
+h5
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #404040;
+}
+
+p 
+{
+	font-size: small; 
+	color: #404040; 
+	line-height: 1.5em;
+	margin: 0 0 15px 0;
+}
+
+ul
+{ 
+	list-style-type:square; 
+}
+
+li
+{
+	font-size: small;
+	margin: 0 0 8px 0;
+}
+
+hr 
+{
+	width: 90%;
+}
+
+img
+{
+	border: 0;
+}
+
+div#content
+{ 
+	position:relative; 
+	width: 980px; 
+	margin: 0px auto; 
+	padding:0px;
+	background-color:#fff; 
+	border:1px solid #525F54; 
+	background-position:right top;
+	background-repeat:repeat-y;
+}
+
+#banner 
+{ 
+	margin:0px; 
+	padding:10px;
+	color:#404040; 
+	background:#1C1B10; 
+	height:50px; 
+	width:960px;
+}
+
+#navbar
+{
+	background:#E5E5DA;
+	padding:10px;
+	width:960px;
+	height:20px;
+	text-align:center;
+}
+
+#maincontent
+{
+	padding:10px;
+	width:960px;
+}
+
+#footer
+{
+	clear:both;
+	background:#E5E5DA;
+	padding:10px;
+	width:960px;
+	height:20px;
+	text-align:center;
+}
+
+#column1
+{
+	width:120px;
+	padding:10px;
+	float:left;
+}
+
+#column2
+{
+	width:540px;
+	padding:10px;
+	float:left;
+	border-left-style:solid;
+	border-left-width:2px;
+	border-left-color:#E5E5E5;
+}
+
+#column3
+{
+	width:250px;
+	padding:10px;
+	float:right;
+}
